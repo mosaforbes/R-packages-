@@ -1,0 +1,7 @@
+install.packages("tidyverse") #this helps make the table tidy and easy to view
+#after installing any package always call it into the workspace using the 
+library(tidyverse)#or any other installed packages.
+dim() #this gives the dimension of the table, no of rows followed by no of columns
+attach() #when using the attach function then when calling variables you wont need to use the prefix 'x$'
+view() #this is used to view the data in the console and sort through it manually
+names() #this brings out all the headings into summary for easy viewing
