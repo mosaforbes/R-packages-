@@ -5,3 +5,6 @@ dim() #this gives the dimension of the table, no of rows followed by no of colum
 attach() #when using the attach function then when calling variables you wont need to use the prefix 'x$'
 view() #this is used to view the data in the console and sort through it manually
 names() #this brings out all the headings into summary for easy viewing
+#read.table(#file path) is used in importing files to R can also be done manually by using the import button on the console
+save.image("~/R tutorials/mental_healt practice.RData") #this is used to save work
+ls() #this helps check all that is stored in R's memory
